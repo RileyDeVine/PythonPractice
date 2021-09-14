@@ -17,5 +17,5 @@ def topFiveMovies():
 #print list description
 print("These are my top five movies.")
 
-#print function
+#run function
 topFiveMovies()
