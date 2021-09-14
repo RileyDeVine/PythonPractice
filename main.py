@@ -1,17 +1,21 @@
-#Print Greeting Message
-print("Hello World!")
+def topFiveMovies():
+    #print first movie
+    print("Pacific Rim")
 
-#Print 1st movie
-print("Pacific Rim")
+    #print second movie
+    print("Godzilla King of the Monsters")
 
-#Print 2nd Movie
-print("Godzilla King Of the Monsters")
+    #print third movie
+    print("Godzilla vs Kong")
 
-#Print 3rd Movie
-print("Godzilla Vs Kong")
+    #print fourth movie
+    print("Bumblebee")
+    
+    #print fith movie
+    print("The Snyder Cut")
 
-#Print 4th Movie
-print("Bumblebee")
+#print list description
+print("These are my top five movies.")
 
-#Print 5th Movie
-print("The Snyder Cut")
+#print function
+topFiveMovies()
