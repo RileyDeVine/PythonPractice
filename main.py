@@ -44,13 +44,21 @@ def topFiveShows():
     print("Ben 10 Classic")
 
     #print fourth show
-    print("American Horror Story S1")
+    print("Jojo's Bizarre Adventure")
 
     #print fifth show
     print("Pacific Rim The Black")
 
 #define function fictional vehicles
 
+#define name
+def myNameis(user):
+
+    #output name
+    print(user + " is my name.")
+
+#run function
+myNameis("Riley")
 
 #print list description
 print("These are my top five movies.")
@@ -58,12 +66,11 @@ print("These are my top five movies.")
 #run function
 topFiveMovies()
 
-
-#define name
-def myNameis(user):
-
-    #output name
-    print(user + "is my name.")
+#run function
+topFiveVideoGames()
 
 #run function
-myNameis("Riley")
+topFiveShows()
+
+
+
