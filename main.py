@@ -18,5 +18,42 @@ def topFiveMovies():
 #print list description
 print("These are my top five movies.")
 
+#define function videogames
+def topFiveVideoGames():
+    #print first game
+    print("Garry's Mod")
+
+    #print second game
+    print("Minecraft")
+
+    #print third game
+    print("Ark Survival Evolved")
+
+    #print fourth game
+    print("Doom Eternal")
+
+    #print fifth game
+    print("Terraria")
+
+#define function shows
+def topFiveShows():
+    #print first show
+    print("Invincible")
+
+    #print second show
+    print("Transformers Prime")
+
+    #print third show
+    print("Ben 10 Classic")
+
+    #print fourth show
+    print("American Horror Story S1")
+
+    #print fifth show
+    print("Pacific Rim The Black")
+
+#define function fictional vehicles
+
+
 #run function
 topFiveMovies()
