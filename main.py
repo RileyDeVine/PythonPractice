@@ -15,9 +15,6 @@ def topFiveMovies():
     #print fith movie
     print("The Snyder Cut")
 
-#print list description
-print("These are my top five movies.")
-
 #define function videogames
 def topFiveVideoGames():
     #print first game
@@ -55,5 +52,18 @@ def topFiveShows():
 #define function fictional vehicles
 
 
+#print list description
+print("These are my top five movies.")
+
 #run function
 topFiveMovies()
+
+
+#define name
+def myNameis(user):
+
+    #output name
+    print(user + "is my name.")
+
+#run function
+myNameis("Riley")
