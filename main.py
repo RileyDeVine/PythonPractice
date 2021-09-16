@@ -54,14 +54,53 @@ def topFiveFictionalVehicles():
     #define first vehicle
     print("Jenny Haniver (Mortal Engines)")
 
+    #define second vehicle
+    print("Ecto-1 (Ghostbusters)")
+
+    #define third vehicle
+    print("The Blackbird (X-Men)")
+
+    #define fourth vehicle
+    print("The TARDIS (Doctor Who)")
+
+    #define fitfth vehicle
+    print("The Delorean (Back to the Future")
+
+#define function mechs/robots
+def topFiveMechsAndRobots():
+    #define first mech
+    print("The Constructicons and Devastator (Transformers 1984)")
+
+    #define second mech
+    print("Atlas Destroyer (Pacific Rim The Black)")
+
+    #define third mech
+    print("Voltron (Voltron 1984 and 2016)")
+
+    #define fourth mech
+    print("Walking Fortress (EDF)")
+
+    #define fifth mech
+    print("")
+
 #define name
 def myNameis(user):
-
+    
     #output name
     print(user + " is my name.")
 
+def timesTwo(input):
+
+    #multiply input
+    print(input * 2)
+
+#run multiplication function
+timesTwo(4)
+
 #run function
 myNameis("Riley")
+#run function again
+myNameis("Other")
 
 #print list description
 print("These are my top five movies.")
