@@ -1,35 +1,22 @@
-#define times function
-def timesTwo(input):
-    #multiply input
-    print(input * 2)
+#define madlib
+def madLib(placeone, itemone, itempowers, nameone, placetwo, transport, actionone, tradition, adjectiveone):
+    #define setting
+    print("Once upon a time in a place known as " + placeone + ".")
 
-#define add function
-def addFive(input):
-    #add input
-    (input + 5)
+    #define conflict
+    print("Two nations were at war, they had been fighting for centuries over an immensly powerful object known as " + item + ".")
 
-#define divide function
-def divideTwo(input):
-    #divide input
-    (input / 2)
+    #define item powers
+    print("this item had the power to " + itempowers + ".")
 
-def addTwonumbers (x,y):
-    print(x + y)
+    #define hero arrival
+    print("One day during the war, a new folk came along, they were known as " + nameone + ". They had come from a mystical place up north called " + placetwo + ".")
 
-addTwonumbers(20, 30)
-#run multiplication function
-timesTwo(30)
+    #define steed name
+    print("They rode into the battlefield on a " + transport + ", which were known for being used by valiant heros.")
 
-#run add function
-addFive(5)
+    #define action
+    print("They dashed through the fighting and grabbed the " + itemone + " and used it to "  + itempowers + ". This caused the two nations to " + actionone)
 
-#run division function
-divideTwo(20)
-
-
-
-
-
-
-
-
+    #define resolve
+    print("Once the two nations had " + actionone + "they had begun a new tradition known as " + tradition + ". This new tradition had proven very " + adjectiveone + " for the people of the nations.")
