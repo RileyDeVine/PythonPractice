@@ -19,7 +19,7 @@ def madLib(nounone, nountwo, verbone, nounthree, nounfour, nounfive, adjectiveon
     print("They dashed through the fighting and grabbed the " + nountwo + " and used it to "  + verbone + ". This caused the two nations to " + verbone)
 
     #define resolve
-    print("Once the two nations had " + verbtwo + "they had begun a new tradition known as " + nounsix + ". This new tradition had proven very " + adjectivetwo + " for the people of the nations.")
+    print("Once the two nations had " + verbtwo + " they had begun a new tradition known as " + nounsix + ". This new tradition had proven very " + adjectivetwo + " for the people of the nations.")
 
 #print welcome message
 print("Welcome to Python MadLibs! Input parameters into the function to create a MadLib.")
