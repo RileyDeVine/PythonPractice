@@ -1,12 +1,44 @@
-def greaterThan10(x):
-    if x > 10:
-        return "x is greater than 10."
+#define function
+def define(word):
 
-    elif x==10:
-        return "x equals 10"
-        
+    word = word.lower()
+
+    #if statement for first word
+    if word == "jaeger":
+        return "Jaeger- The Russian term for hunter, Pacific rim reference :)"
+
+    #elif statement for second word
+    elif word == "kaiju":
+        return "Kaiju-Japanese term for Giant Monster, commonly associated with fictional creatures such as Gojira(Godzilla)"
+
+    #elif statement for third word
+    elif word == "muto":
+        return "MUTO- Massive Unidentified Terrestrial Organism"
+
+    #elif statement for fourth word
+    elif word == "drone":
+        return "Drone- A term refering to an remote controlled mechanical device"
+    
+    #elif statement for fifth word
+    elif word == "omnitrix":
+        return "Omnitrix- A wrist mounted device capable of altering the user's DNA to match that of a requested species"
+    
+    #elif statement for sixth word
+    elif word == "titan":
+        return "Titan- A being of immense size, commonly refered to in greek mythology, essentially the Greek equivilent to Kaiju"
+
+    #elif statement for seventh word
+    elif word== "traction city":
+        return "Traction City- A city or town which has either been converted or built to be on wheels, and is mobile"
+
+    #else statement for unknown words
     else:
-        return "x is not greater than 10."
+        return word + " is an unknown word, cannot retrieve definition!"
 
-print(greaterThan10(10))
+
+print(define("traction city"))
+
+
+
+
 
