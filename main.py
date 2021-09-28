@@ -31,12 +31,15 @@ def define(word):
     elif word== "traction city":
         return "Traction City- A city or town which has either been converted or built to be on wheels, and is mobile"
 
+    #elif statement for eigth word
+    elif word == "scp fundation":
+        return "SCP-Secure Contain Protect, is an organization dedicated to containing and researching anomalies that are a threat to life and normality"
     #else statement for unknown words
     else:
         return word + " is an unknown word, cannot retrieve definition!"
 
 
-print(define("traction city"))
+print(define("haha word that isn't in the dictionary"))
 
 
 
