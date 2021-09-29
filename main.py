@@ -1,45 +1,15 @@
-#define function
-def define(word):
+#define function even or odd
+def evenOrOdd(x):
 
-    word = word.lower()
-
-    #if statement for first word
-    if word == "jaeger":
-        return "Jaeger- The Russian term for hunter, Pacific rim reference :)"
-
-    #elif statement for second word
-    elif word == "kaiju":
-        return "Kaiju-Japanese term for Giant Monster, commonly associated with fictional creatures such as Gojira(Godzilla)"
-
-    #elif statement for third word
-    elif word == "muto":
-        return "MUTO- Massive Unidentified Terrestrial Organism"
-
-    #elif statement for fourth word
-    elif word == "drone":
-        return "Drone- A term refering to an remote controlled mechanical device"
+    #if number can be divided by 2
+    if (x % 2) == 0:
+        return True
     
-    #elif statement for fifth word
-    elif word == "omnitrix":
-        return "Omnitrix- A wrist mounted device capable of altering the user's DNA to match that of a requested species"
-    
-    #elif statement for sixth word
-    elif word == "titan":
-        return "Titan- A being of immense size, commonly refered to in greek mythology, essentially the Greek equivilent to Kaiju"
-
-    #elif statement for seventh word
-    elif word== "traction city":
-        return "Traction City- A city or town which has either been converted or built to be on wheels, and is mobile"
-
-    #elif statement for eigth word
-    elif word == "scp fundation":
-        return "SCP-Secure Contain Protect, is an organization dedicated to containing and researching anomalies that are a threat to life and normality"
-    #else statement for unknown words
+    #else
     else:
-        return word + " is an unknown word, cannot retrieve definition!"
+        return False
 
-
-print(define("haha word that isn't in the dictionary"))
+print(evenOrOdd(8))
 
 
 
