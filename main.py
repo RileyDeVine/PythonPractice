@@ -1,17 +1,12 @@
-#define function even or odd
-def evenOrOdd(x):
+def function():
 
-    #if number can be divided by 2
-    if (x % 2) == 0:
-        return True
-    
-    #else
-    else:
-        return False
+    count = 1
 
-print(evenOrOdd(8))
+    while count < 69419:
+        print("dog")
+        count = count + 1
 
 
-
+function()
 
 
